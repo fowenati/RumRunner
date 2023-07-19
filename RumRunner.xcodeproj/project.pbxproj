@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA8ECF1E2A6784C400EC5642 /* RumRunnerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8ECF1D2A6784C400EC5642 /* RumRunnerApp.swift */; };
+		CA8ECF202A6784C400EC5642 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8ECF1F2A6784C400EC5642 /* ContentView.swift */; };
+		CA8ECF222A6784C600EC5642 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA8ECF212A6784C600EC5642 /* Assets.xcassets */; };
+		CA8ECF252A6784C600EC5642 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA8ECF242A6784C600EC5642 /* Preview Assets.xcassets */; };
+		CA8ECF302A6784C600EC5642 /* RumRunnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8ECF2F2A6784C600EC5642 /* RumRunnerTests.swift */; };
+		CA8ECF3A2A6784C600EC5642 /* RumRunnerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8ECF392A6784C600EC5642 /* RumRunnerUITests.swift */; };
+		CA8ECF3C2A6784C600EC5642 /* RumRunnerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8ECF3B2A6784C600EC5642 /* RumRunnerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA8ECF2C2A6784C600EC5642 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA8ECF122A6784C300EC5642 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA8ECF192A6784C400EC5642;
+			remoteInfo = RumRunner;
+		};
+		CA8ECF362A6784C600EC5642 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA8ECF122A6784C300EC5642 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA8ECF192A6784C400EC5642;
+			remoteInfo = RumRunner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA8ECF1A2A6784C400EC5642 /* RumRunner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RumRunner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA8ECF1D2A6784C400EC5642 /* RumRunnerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RumRunnerApp.swift; sourceTree = "<group>"; };
+		CA8ECF1F2A6784C400EC5642 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CA8ECF212A6784C600EC5642 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA8ECF242A6784C600EC5642 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CA8ECF262A6784C600EC5642 /* RumRunner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RumRunner.entitlements; sourceTree = "<group>"; };
+		CA8ECF2B2A6784C600EC5642 /* RumRunnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RumRunnerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA8ECF2F2A6784C600EC5642 /* RumRunnerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RumRunnerTests.swift; sourceTree = "<group>"; };
+		CA8ECF352A6784C600EC5642 /* RumRunnerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RumRunnerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA8ECF392A6784C600EC5642 /* RumRunnerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RumRunnerUITests.swift; sourceTree = "<group>"; };
+		CA8ECF3B2A6784C600EC5642 /* RumRunnerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RumRunnerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA8ECF172A6784C400EC5642 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA8ECF282A6784C600EC5642 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA8ECF322A6784C600EC5642 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA8ECF112A6784C300EC5642 = {
+			isa = PBXGroup;
+			children = (
+				CA8ECF1C2A6784C400EC5642 /* RumRunner */,
+				CA8ECF2E2A6784C600EC5642 /* RumRunnerTests */,
+				CA8ECF382A6784C600EC5642 /* RumRunnerUITests */,
+				CA8ECF1B2A6784C400EC5642 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA8ECF1B2A6784C400EC5642 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA8ECF1A2A6784C400EC5642 /* RumRunner.app */,
+				CA8ECF2B2A6784C600EC5642 /* RumRunnerTests.xctest */,
+				CA8ECF352A6784C600EC5642 /* RumRunnerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA8ECF1C2A6784C400EC5642 /* RumRunner */ = {
+			isa = PBXGroup;
+			children = (
+				CA8ECF1D2A6784C400EC5642 /* RumRunnerApp.swift */,
+				CA8ECF1F2A6784C400EC5642 /* ContentView.swift */,
+				CA8ECF212A6784C600EC5642 /* Assets.xcassets */,
+				CA8ECF262A6784C600EC5642 /* RumRunner.entitlements */,
+				CA8ECF232A6784C600EC5642 /* Preview Content */,
+			);
+			path = RumRunner;
+			sourceTree = "<group>";
+		};
+		CA8ECF232A6784C600EC5642 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CA8ECF242A6784C600EC5642 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CA8ECF2E2A6784C600EC5642 /* RumRunnerTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA8ECF2F2A6784C600EC5642 /* RumRunnerTests.swift */,
+			);
+			path = RumRunnerTests;
+			sourceTree = "<group>";
+		};
+		CA8ECF382A6784C600EC5642 /* RumRunnerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA8ECF392A6784C600EC5642 /* RumRunnerUITests.swift */,
+				CA8ECF3B2A6784C600EC5642 /* RumRunnerUITestsLaunchTests.swift */,
+			);
+			path = RumRunnerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA8ECF192A6784C400EC5642 /* RumRunner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA8ECF3F2A6784C600EC5642 /* Build configuration list for PBXNativeTarget "RumRunner" */;
+			buildPhases = (
+				CA8ECF162A6784C400EC5642 /* Sources */,
+				CA8ECF172A6784C400EC5642 /* Frameworks */,
+				CA8ECF182A6784C400EC5642 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RumRunner;
+			productName = RumRunner;
+			productReference = CA8ECF1A2A6784C400EC5642 /* RumRunner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA8ECF2A2A6784C600EC5642 /* RumRunnerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA8ECF422A6784C600EC5642 /* Build configuration list for PBXNativeTarget "RumRunnerTests" */;
+			buildPhases = (
+				CA8ECF272A6784C600EC5642 /* Sources */,
+				CA8ECF282A6784C600EC5642 /* Frameworks */,
+				CA8ECF292A6784C600EC5642 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA8ECF2D2A6784C600EC5642 /* PBXTargetDependency */,
+			);
+			name = RumRunnerTests;
+			productName = RumRunnerTests;
+			productReference = CA8ECF2B2A6784C600EC5642 /* RumRunnerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA8ECF342A6784C600EC5642 /* RumRunnerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA8ECF452A6784C600EC5642 /* Build configuration list for PBXNativeTarget "RumRunnerUITests" */;
+			buildPhases = (
+				CA8ECF312A6784C600EC5642 /* Sources */,
+				CA8ECF322A6784C600EC5642 /* Frameworks */,
+				CA8ECF332A6784C600EC5642 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA8ECF372A6784C600EC5642 /* PBXTargetDependency */,
+			);
+			name = RumRunnerUITests;
+			productName = RumRunnerUITests;
+			productReference = CA8ECF352A6784C600EC5642 /* RumRunnerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA8ECF122A6784C300EC5642 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					CA8ECF192A6784C400EC5642 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					CA8ECF2A2A6784C600EC5642 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = CA8ECF192A6784C400EC5642;
+					};
+					CA8ECF342A6784C600EC5642 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = CA8ECF192A6784C400EC5642;
+					};
+				};
+			};
+			buildConfigurationList = CA8ECF152A6784C300EC5642 /* Build configuration list for PBXProject "RumRunner" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA8ECF112A6784C300EC5642;
+			productRefGroup = CA8ECF1B2A6784C400EC5642 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA8ECF192A6784C400EC5642 /* RumRunner */,
+				CA8ECF2A2A6784C600EC5642 /* RumRunnerTests */,
+				CA8ECF342A6784C600EC5642 /* RumRunnerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA8ECF182A6784C400EC5642 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA8ECF252A6784C600EC5642 /* Preview Assets.xcassets in Resources */,
+				CA8ECF222A6784C600EC5642 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA8ECF292A6784C600EC5642 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA8ECF332A6784C600EC5642 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA8ECF162A6784C400EC5642 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA8ECF202A6784C400EC5642 /* ContentView.swift in Sources */,
+				CA8ECF1E2A6784C400EC5642 /* RumRunnerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA8ECF272A6784C600EC5642 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA8ECF302A6784C600EC5642 /* RumRunnerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA8ECF312A6784C600EC5642 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA8ECF3A2A6784C600EC5642 /* RumRunnerUITests.swift in Sources */,
+				CA8ECF3C2A6784C600EC5642 /* RumRunnerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA8ECF2D2A6784C600EC5642 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA8ECF192A6784C400EC5642 /* RumRunner */;
+			targetProxy = CA8ECF2C2A6784C600EC5642 /* PBXContainerItemProxy */;
+		};
+		CA8ECF372A6784C600EC5642 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA8ECF192A6784C400EC5642 /* RumRunner */;
+			targetProxy = CA8ECF362A6784C600EC5642 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CA8ECF3D2A6784C600EC5642 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA8ECF3E2A6784C600EC5642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		CA8ECF402A6784C600EC5642 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RumRunner/RumRunner.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RumRunner/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fowenati.RumRunner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CA8ECF412A6784C600EC5642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RumRunner/RumRunner.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RumRunner/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fowenati.RumRunner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		CA8ECF432A6784C600EC5642 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fowenati.RumRunnerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RumRunner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RumRunner";
+			};
+			name = Debug;
+		};
+		CA8ECF442A6784C600EC5642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fowenati.RumRunnerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RumRunner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RumRunner";
+			};
+			name = Release;
+		};
+		CA8ECF462A6784C600EC5642 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fowenati.RumRunnerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = RumRunner;
+			};
+			name = Debug;
+		};
+		CA8ECF472A6784C600EC5642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fowenati.RumRunnerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = RumRunner;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA8ECF152A6784C300EC5642 /* Build configuration list for PBXProject "RumRunner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA8ECF3D2A6784C600EC5642 /* Debug */,
+				CA8ECF3E2A6784C600EC5642 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA8ECF3F2A6784C600EC5642 /* Build configuration list for PBXNativeTarget "RumRunner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA8ECF402A6784C600EC5642 /* Debug */,
+				CA8ECF412A6784C600EC5642 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA8ECF422A6784C600EC5642 /* Build configuration list for PBXNativeTarget "RumRunnerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA8ECF432A6784C600EC5642 /* Debug */,
+				CA8ECF442A6784C600EC5642 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA8ECF452A6784C600EC5642 /* Build configuration list for PBXNativeTarget "RumRunnerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA8ECF462A6784C600EC5642 /* Debug */,
+				CA8ECF472A6784C600EC5642 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA8ECF122A6784C300EC5642 /* Project object */;
+}
