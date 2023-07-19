@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct RumRunnerApp: App {
+    @StateObject private var packageListViewModel = PackageListViewModel()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PackageListView()
+                        .environmentObject(packageListViewModel)
         }
     }
 }

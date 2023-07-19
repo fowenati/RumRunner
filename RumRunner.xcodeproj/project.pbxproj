@@ -14,6 +14,9 @@
 		CA8ECF302A6784C600EC5642 /* RumRunnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8ECF2F2A6784C600EC5642 /* RumRunnerTests.swift */; };
 		CA8ECF3A2A6784C600EC5642 /* RumRunnerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8ECF392A6784C600EC5642 /* RumRunnerUITests.swift */; };
 		CA8ECF3C2A6784C600EC5642 /* RumRunnerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8ECF3B2A6784C600EC5642 /* RumRunnerUITestsLaunchTests.swift */; };
+		CA8ECF4C2A6786A800EC5642 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8ECF4B2A6786A800EC5642 /* DataModel.swift */; };
+		CA8ECF4E2A67870B00EC5642 /* PackageListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8ECF4D2A67870B00EC5642 /* PackageListViewModel.swift */; };
+		CA8ECF502A67879D00EC5642 /* PackageListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8ECF4F2A67879D00EC5642 /* PackageListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		CA8ECF352A6784C600EC5642 /* RumRunnerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RumRunnerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA8ECF392A6784C600EC5642 /* RumRunnerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RumRunnerUITests.swift; sourceTree = "<group>"; };
 		CA8ECF3B2A6784C600EC5642 /* RumRunnerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RumRunnerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CA8ECF4B2A6786A800EC5642 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		CA8ECF4D2A67870B00EC5642 /* PackageListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageListViewModel.swift; sourceTree = "<group>"; };
+		CA8ECF4F2A67879D00EC5642 /* PackageListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,9 @@
 			children = (
 				CA8ECF1D2A6784C400EC5642 /* RumRunnerApp.swift */,
 				CA8ECF1F2A6784C400EC5642 /* ContentView.swift */,
+				CA8ECF4F2A67879D00EC5642 /* PackageListView.swift */,
+				CA8ECF4D2A67870B00EC5642 /* PackageListViewModel.swift */,
+				CA8ECF4B2A6786A800EC5642 /* DataModel.swift */,
 				CA8ECF212A6784C600EC5642 /* Assets.xcassets */,
 				CA8ECF262A6784C600EC5642 /* RumRunner.entitlements */,
 				CA8ECF232A6784C600EC5642 /* Preview Content */,
@@ -260,7 +269,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA8ECF202A6784C400EC5642 /* ContentView.swift in Sources */,
+				CA8ECF4E2A67870B00EC5642 /* PackageListViewModel.swift in Sources */,
+				CA8ECF502A67879D00EC5642 /* PackageListView.swift in Sources */,
 				CA8ECF1E2A6784C400EC5642 /* RumRunnerApp.swift in Sources */,
+				CA8ECF4C2A6786A800EC5642 /* DataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
