@@ -4,7 +4,7 @@ import Combine
 import SwiftUI
 import Combine
 
-struct Package: Decodable, Identifiable {
+struct Package: Decodable, Identifiable, Equatable {
     let id: UUID = UUID()
     let name: String
     let versions: [String]?
@@ -15,10 +15,11 @@ struct Package: Decodable, Identifiable {
         case name
         case versions
     }
-    
+
     init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
         self.name = try container.decode(String.self, forKey: .name)
+        
         if let versionsData = try? container.decode(Data.self, forKey: .versions),
            let versionsDictionary = try? JSONSerialization.jsonObject(with: versionsData, options: []) as? [String: Any] {
             self.versions = Array(versionsDictionary.keys)
@@ -29,27 +30,22 @@ struct Package: Decodable, Identifiable {
 }
 
 
-struct Cask: Decodable, Identifiable {
+struct Cask: Decodable, Identifiable, Equatable {
     let id: UUID = UUID()
     let name: String
-    let versions: [String]?
+    let version: String?
     var isSelected: Bool = false
     
     enum CodingKeys: String, CodingKey {
         case id
         case token
-        case versions
+        case version
     }
     
     init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
         self.name = try container.decode(String.self, forKey: .token)
-        if let versionsData = try? container.decode(Data.self, forKey: .versions),
-           let versionsDictionary = try? JSONSerialization.jsonObject(with: versionsData, options: []) as? [String: Any] {
-            self.versions = Array(versionsDictionary.keys)
-        } else {
-            self.versions = nil
-        }
+        self.version = try container.decode(String.self, forKey: .version)
     }
 }
 
